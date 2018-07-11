@@ -9,5 +9,5 @@ Use Visual Studio Code and Maven to build and run Java barcode reader built with
 
 ## HowTo
 1. Load projects to Visual Studio Code.
-2. Run `mvn package'.
+2. Run `mvn package`.
 3. Press `F5` to debug the code.
