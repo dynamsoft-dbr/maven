@@ -14,5 +14,13 @@ Use Visual Studio Code and Maven to build and run Java barcode reader built with
     
     Windows
     ```
+    mvn package
     java -cp target/BarcodeReaderDemo-1.0-SNAPSHOT.jar;%USERPROFILE%\.m2\repository\com\dynamsoft\dbr\6.2\dbr-6.2.jar  com.dynamsoft.demo.App
+    ```
+
+    You can also build the jar file with the dependencies:
+
+    ```
+    mvn install assembly:assembly
+    java -cp target/BarcodeReaderDemo-1.0-SNAPSHOT-jar-with-dependencies.jar com.dynamsoft.demo.App
     ```
